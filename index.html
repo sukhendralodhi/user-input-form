@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Input Form</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+        }
+        div {
+            max-width: 400px;
+        }
+    </style>
+</head>
+<body>
+     <div style="border: 2px solid black; padding: 10px">
+        <h1>User Input Form</h1>
+        <form action="">
+            <fieldset>
+                <legend>Personal Particular</legend>
+                <label for="">Name:<input type="text"></label> <br>
+                <label for="">Password:<input type="password"></label> <br>
+                <label for="">
+                        Gender: 
+                        <input name="gender" type="radio">Male
+                        <input name="gender" type="radio"> Female
+                    </label> <br>
+                <label for="">
+                        Age: 
+                        <input type="number">                    
+                        </label>
+            </fieldset>
+            <fieldset>
+                <legend>Languages</legend>
+                <label for="">
+                    <input type="checkbox">Java
+                </label>
+                 <label for="">
+                    <input type="checkbox">C/C++
+                </label>
+                 <label for="">
+                    <input type="checkbox">C#
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Instructions</legend>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Enter your instruction here...."></textarea> <br>
+                <input type="submit" value="Send">
+                <input type="reset" value="Clear">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
